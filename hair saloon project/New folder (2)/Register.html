@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <form class="well form-horizontal" action=" " method="post" id="contact_form">
+      <fieldset>
+
+        <legend>
+          <center>
+            <h2><b>Registration Form</b></h2>
+          </center>
+        </legend><br>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Full Name</label>
+          <div class="col-md-8">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="first_name" placeholder="Full Name" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <label class="col-md-4 control-label">E-mail</label>
+        <div class="col-md-8">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="first_name" placeholder="E-mail" class="form-control" type="email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Password</label>
+          <div class="col-md-8">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="last_name" placeholder="Password" class="form-control" type="password">
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label class="col-md-4 control-label">Select Gender</label>
+          <div class="col-md-8">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <select name="department" class="form-control selectpicker">
+                <option value="">Select Gender</option>
+                <option>male</option>
+                <option>female</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Rest of the form elements... -->
+
+        <div class="form-group">
+          <div class="col-md-8 col-md-offset-4">
+            <br>
+            <button type="submit" class="btn btn-warning">SUBMIT <span class="glyphicon glyphicon-send"></span>
+            </button>
+          </div>
+        </div>
+
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>
